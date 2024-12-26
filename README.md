@@ -33,23 +33,16 @@ However, the remaining flip-flops should be made ready to toggle only when all l
 **PROGRAM**
 
 ```
-module up_c (
-    input clk,        
-    input rst,       
-    output reg [3:0] count  
-);
-
-   
-    always @(posedge clk or posedge rst) begin
-        if (rst) begin
-            
-            count <= 4'b0000;
-        end else begin
-            
-            count <= count + 1;
-        end
-    end
-
+module exp11(out,clk,rstn);
+input clk,rstn;
+output reg [3:0]out;
+always @ (posedge clk)
+begin
+if(!rstn)
+ out<=0;
+else 
+ out <= out+1;
+end
 endmodule
 
 ```
@@ -62,17 +55,19 @@ Developed by:Rohith V ,RegisterNumber:24900447
 
 **RTL LOGIC UP COUNTER**
 
-![Screenshot 2024-12-16 202240](https://github.com/user-attachments/assets/1fdf8861-dc8e-4ae0-ad11-67a159bdcc6a)
+![Screenshot 2024-12-26 182830](https://github.com/user-attachments/assets/b853eaea-9882-4bc5-a3f4-7dd9e681db46)
+
 
 
 **TIMING DIAGRAM FOR IP COUNTER**
 
-![Screenshot (66)](https://github.com/user-attachments/assets/b901d44b-cd72-49a7-bf87-2ed1dc3a0bb6)
+![Screenshot 2024-12-26 182908](https://github.com/user-attachments/assets/1276c074-5664-43ad-9678-2e74b4e2ddcf)
+
 
 
 **TRUTH TABLE**
 
-![Screenshot 2024-12-16 203012](https://github.com/user-attachments/assets/c5c7c4e8-a87f-4cb9-994b-d05b83999b0d)
+![Screenshot 2024-12-26 183013](https://github.com/user-attachments/assets/6e04233d-a460-430b-bbdb-f49844977c87)
 
 
 **RESULTS**
