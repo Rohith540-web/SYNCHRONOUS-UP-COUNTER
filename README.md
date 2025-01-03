@@ -1,5 +1,3 @@
-![image](https://github.com/user-attachments/assets/6cc72b99-a363-4696-b530-c181c5edf52d)### SYNCHRONOUS-UP-COUNTER
-
 **AIM:**
 
 To implement 4 bit synchronous up counter and validate functionality.
