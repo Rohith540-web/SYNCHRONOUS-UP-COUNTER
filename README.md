@@ -1,4 +1,4 @@
-### SYNCHRONOUS-UP-COUNTER
+![image](https://github.com/user-attachments/assets/6cc72b99-a363-4696-b530-c181c5edf52d)### SYNCHRONOUS-UP-COUNTER
 
 **AIM:**
 
@@ -61,7 +61,9 @@ Developed by:Rohith V ,RegisterNumber:24900447
 
 **TIMING DIAGRAM FOR IP COUNTER**
 
-![Screenshot 2024-12-26 182908](https://github.com/user-attachments/assets/1276c074-5664-43ad-9678-2e74b4e2ddcf)
+![Screenshot 2025-01-03 104000](https://github.com/user-attachments/assets/0b96208a-e801-4ca1-9c78-e5157ca10ddc)
+
+
 
 
 
